@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>otpgenration</title>
+    <link rel="stylesheet" type="text/css" href="login.css" />
+    <script src="otp1.js"></script>
+  </head>
+  <body>
+    
+    <button onclick="goBack()">Go Back</button> 
+    <center><h1>Number Verification</h1></center>
+    <form class="fix">
+      <div class="container">
+        <input
+          type="number"
+          placeholder="Enter mobile number"
+          name="NUMBER"
+          id="otp"
+          required
+        />
+        <button type="submit" onclick=" return  generateOTP()">Send otp</button>
+        <a href="sms:+1234?body=sadsadsas" style="color:blue;background-color:#FFA500">SMS</a>
+      </div>
+    </form>
+  </body>
+</html>

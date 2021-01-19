@@ -1,0 +1,39 @@
+Body {
+  font-family: ubuntu;
+  background-color: #131253;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+}
+.fix {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+input[type="text"],
+input[type="password"] {
+  width: 50%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 2px solid green;
+  box-sizing: border-box;
+}
+button:hover {
+  opacity: 0.7;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  margin: 10px 5px;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+  background-color: lightblue;
+}
+h1 {
+  font-style: italic;
+  color: white;
+}

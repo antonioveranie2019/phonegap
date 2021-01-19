@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home page</title>
+    <link rel="stylesheet" type="text/css" href="login.css" />
+    <script>
+        function goBack() {
+          location.replace("login.html")
+        }
+    </script>
+  </head>
+  <body>
+    <button onclick="goBack()">Go Back</button>
+    <center><h1>Home page</h1></center>
+    <form class="fix">
+      <div class="container">
+        <button type="submit" formaction="otp.html">ENTER VISITERS DATA</button>
+        <button type="submit" formaction="dis.html">VIEW  VISITERS DATA</button>
+      </div>
+    </form>
+  </body>
+</html>

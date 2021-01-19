@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script> 
+
+      // Function to generate OTP 
+      function generateOTP() { 
+          
+        // Declare a digits variable 
+        // which stores all digits 
+        var digits = '0123456789'; 
+        let OTP = ''; 
+        for (let i = 0; i < 4; i++ ) { 
+          OTP += digits[Math.floor(Math.random() * 10)]; 
+        } 
+        return OTP; 
+      } 
+      var otp1 = generateOTP();
+      document.write("OTP of 4 digits: ") 
+      </script>					 
+      
+  </head>
+
+  <body>
+    <button  onclick="otp()">send otp</button>
+  </body>
+</html>
